@@ -1,0 +1,928 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Apr 20 20:20:58 2025
+# Process ID: 25748
+# Current directory: C:/EE446/EXP_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30564 C:\EE446\EXP_4\EXP_4.xpr
+# Log file: C:/EE446/EXP_4/vivado.log
+# Journal file: C:/EE446/EXP_4\vivado.jou
+# Running On        :DESKTOP-M3R0RID
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency     :2803 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :34069 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36216 MB
+# Available Virtual :26325 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/EE446/EXP_4/EXP_4.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/EE446/EXP_4/EXP_4.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:18 . Memory (MB): peak = 1499.781 ; gain = 423.312
+import_files {C:/EE446/Test_exp4/HDL/ALU.v C:/EE446/Test_exp4/HDL/Instruction_memory.v C:/EE446/Test_exp4/HDL/hazard_unit.v C:/EE446/Test_exp4/HDL/Mux_16to1.v C:/EE446/Test_exp4/HDL/top.v C:/EE446/Test_exp4/HDL/datapath.v C:/EE446/Test_exp4/HDL/Mux_4to1.v C:/EE446/Test_exp4/HDL/Adder.v C:/EE446/Test_exp4/HDL/Mux_2to1.v C:/EE446/Test_exp4/HDL/Register_rsten_neg.v C:/EE446/Test_exp4/HDL/Register_reset.v C:/EE446/Test_exp4/HDL/shifter.v C:/EE446/Test_exp4/HDL/Memory.v C:/EE446/Test_exp4/HDL/Decoder_2to4.v C:/EE446/Test_exp4/HDL/Register_simple.v C:/EE446/Test_exp4/HDL/Register_en.v C:/EE446/Test_exp4/HDL/controller.v C:/EE446/Test_exp4/HDL/Decoder_4to16.v C:/EE446/Test_exp4/HDL/Register_file.v C:/EE446/Test_exp4/HDL/Extender.v C:/EE446/Test_exp4/HDL/Register_rsten.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property top datapath [current_fileset]
+update_compile_order -fileset sources_1
+synth_design -top datapath -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top datapath -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 24856
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1954.172 ; gain = 419.824
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-11241] undeclared symbol 'FwdA_3', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:246]
+INFO: [Synth 8-11241] undeclared symbol 'FwdB_3', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:253]
+WARNING: [Synth 8-8895] 'FwdA_3' is already implicitly declared on line 246 [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:264]
+WARNING: [Synth 8-8895] 'FwdB_3' is already implicitly declared on line 253 [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:281]
+INFO: [Synth 8-11241] undeclared symbol 'SH_in', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:298]
+WARNING: [Synth 8-8895] 'SH_in' is already implicitly declared on line 298 [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:302]
+WARNING: [Synth 8-6901] identifier 'ID_EX_Rd' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:46]
+WARNING: [Synth 8-6901] identifier 'WA3M' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:47]
+WARNING: [Synth 8-6901] identifier 'WA3W' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:48]
+WARNING: [Synth 8-6901] identifier 'RA1' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:129]
+WARNING: [Synth 8-6901] identifier 'RA2' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:130]
+INFO: [Synth 8-6157] synthesizing module 'datapath' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Adder.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (1#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Adder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux_2to1' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_2to1.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux_2to1' (2#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_2to1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_rsten' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_rsten.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_rsten' (3#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_rsten.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Instruction_memory' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Instruction_memory.v:1]
+	Parameter BYTE_SIZE bound to: 4 - type: integer 
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'Instructions.hex'; please make sure the file is added to project and has read permission, ignoring [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Instruction_memory.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Instruction_memory' (4#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Instruction_memory.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux_2to1__parameterized0' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_2to1.v:1]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux_2to1__parameterized0' (4#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_2to1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_file' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_file.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Register_rsten_neg' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_rsten_neg.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_rsten_neg' (5#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_rsten_neg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Decoder_4to16' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Decoder_4to16.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Decoder_4to16' (6#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Decoder_4to16.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux_16to1' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_16to1.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_16to1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_16to1' (7#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_16to1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Register_file' (8#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_file.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Extender' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Extender.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Extender' (9#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Extender.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset' (10#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset__parameterized0' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset__parameterized0' (10#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux_4to1' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_4to1.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_4to1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_4to1' (11#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_4to1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shifter' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/shifter.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'shifter' (12#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/shifter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/ALU.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (13#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/ALU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Memory' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Memory.v:1]
+	Parameter BYTE_SIZE bound to: 4 - type: integer 
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Memory' (14#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Memory.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_simple' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_simple.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_simple' (15#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_simple.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_simple__parameterized0' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_simple.v:1]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_simple__parameterized0' (15#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_simple.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'datapath' (16#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2065.086 ; gain = 530.738
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Apr 20 20:22:40 2025
+| Host         : DESKTOP-M3R0RID running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++----------+----------+--------------+----------+
+| Rule ID  | Severity | # Violations | # Waived |
++----------+----------+--------------+----------+
+| ASSIGN-2 | WARNING  | 1            | 0        |
+| ASSIGN-6 | WARNING  | 1            | 0        |
++----------+----------+--------------+----------+
+
+
+WARNING: [Synth 37-81] [ASSIGN-2]Operator '+' in expression '(ADDR + k)' has mixed signed and unsigned types on its operands, the result will be unsigned.
+Hierarchy 'Memory', File C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Memory.v, Line 21
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'Reg_enable' are not read. First unread bit index is 15. 
+RTL Name 'Reg_enable', Hierarchy 'Register_file', File 'Register_file.v', Line 10.
+INFO: [Synth 37-85] Total of 2 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2065.086 ; gain = 530.738
+INFO: [Common 17-83] Releasing license: Synthesis
+50 Infos, 10 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2065.086 ; gain = 530.738
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: datapath
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Device 21-9227] Part: xc7a100tcsg324-1 does not have CEAM library.
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2370.660 ; gain = 124.914
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'FwdA_3', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:246]
+INFO: [Synth 8-11241] undeclared symbol 'FwdB_3', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:253]
+WARNING: [Synth 8-8895] 'FwdA_3' is already implicitly declared on line 246 [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:264]
+WARNING: [Synth 8-8895] 'FwdB_3' is already implicitly declared on line 253 [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:281]
+INFO: [Synth 8-11241] undeclared symbol 'SH_in', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:298]
+WARNING: [Synth 8-8895] 'SH_in' is already implicitly declared on line 298 [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:302]
+WARNING: [Synth 8-6901] identifier 'ID_EX_Rd' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:46]
+WARNING: [Synth 8-6901] identifier 'WA3M' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:47]
+WARNING: [Synth 8-6901] identifier 'WA3W' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:48]
+WARNING: [Synth 8-6901] identifier 'RA1' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:129]
+WARNING: [Synth 8-6901] identifier 'RA2' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:130]
+INFO: [Synth 8-6157] synthesizing module 'datapath' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Adder.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Adder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux_2to1' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_2to1.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux_2to1' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_2to1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_rsten' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_rsten.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_rsten' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_rsten.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Instruction_memory' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Instruction_memory.v:1]
+	Parameter BYTE_SIZE bound to: 4 - type: integer 
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'Instructions.hex'; please make sure the file is added to project and has read permission, ignoring [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Instruction_memory.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Instruction_memory' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Instruction_memory.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux_2to1__parameterized0' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_2to1.v:1]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux_2to1__parameterized0' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_2to1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_file' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_file.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Register_rsten_neg' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_rsten_neg.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_rsten_neg' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_rsten_neg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Decoder_4to16' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Decoder_4to16.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Decoder_4to16' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Decoder_4to16.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux_16to1' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_16to1.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_16to1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_16to1' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_16to1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Register_file' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_file.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Extender' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Extender.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Extender' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Extender.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset__parameterized0' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset__parameterized0' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux_4to1' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_4to1.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_4to1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_4to1' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_4to1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shifter' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/shifter.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'shifter' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/shifter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/ALU.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/ALU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Memory' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Memory.v:1]
+	Parameter BYTE_SIZE bound to: 4 - type: integer 
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Memory' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Memory.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_simple' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_simple.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_simple' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_simple.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_simple__parameterized0' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_simple.v:1]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_simple__parameterized0' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_simple.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'datapath' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:1]
+WARNING: [Synth 8-4767] Trying to implement RAM 'mem_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "mem_reg" dissolved into registers
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2543.641 ; gain = 297.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2543.641 ; gain = 297.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2543.641 ; gain = 297.895
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 2543.641 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2655.809 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:23 ; elapsed = 00:00:14 . Memory (MB): peak = 2691.879 ; gain = 446.133
+48 Infos, 9 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 2691.879 ; gain = 626.793
+set_property top controller [current_fileset]
+update_compile_order -fileset sources_1
+close_design
+synth_design -top controller -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top controller -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2719.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-11241] undeclared symbol 'isCMP_E', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:230]
+INFO: [Synth 8-11241] undeclared symbol 'reset_combined', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:239]
+WARNING: [Synth 8-8895] 'isCMP_E' is already implicitly declared on line 230 [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:263]
+WARNING: [Synth 8-8895] 'reset_combined' is already implicitly declared on line 239 [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:264]
+WARNING: [Synth 8-6901] identifier 'isBL' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:40]
+WARNING: [Synth 8-6901] identifier 'WA3_M' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:41]
+WARNING: [Synth 8-6901] identifier 'WA3_W' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:42]
+WARNING: [Synth 8-6901] identifier 'PCSrcD' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:43]
+WARNING: [Synth 8-6901] identifier 'PCSrcE' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:44]
+WARNING: [Synth 8-6901] identifier 'PCSrcM_r' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:45]
+WARNING: [Synth 8-6901] identifier 'RegWriteM_r' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:46]
+WARNING: [Synth 8-6901] identifier 'MemtoRegE' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:47]
+WARNING: [Synth 8-6901] identifier 'flushd_2' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:130]
+INFO: [Synth 8-6157] synthesizing module 'controller' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_rsten' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_rsten.v:1]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_rsten' (1#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_rsten.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset' (2#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset__parameterized0' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset__parameterized0' (2#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset__parameterized1' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset__parameterized1' (2#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset__parameterized2' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset__parameterized2' (2#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'controller' (3#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2719.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Apr 20 20:55:53 2025
+| Host         : DESKTOP-M3R0RID running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++----------+----------+--------------+----------+
+| Rule ID  | Severity | # Violations | # Waived |
++----------+----------+--------------+----------+
+| ASSIGN-6 | WARNING  | 1            | 0        |
++----------+----------+--------------+----------+
+
+
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'CPSR' are not read. First unread bit index is 0. 
+RTL Name 'CPSR', Hierarchy 'controller', File 'controller.v', Line 226.
+INFO: [Synth 37-85] Total of 1 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2719.023 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Synthesis
+19 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2719.023 ; gain = 0.000
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: controller
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2719.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'isCMP_E', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:230]
+INFO: [Synth 8-11241] undeclared symbol 'reset_combined', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:239]
+WARNING: [Synth 8-8895] 'isCMP_E' is already implicitly declared on line 230 [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:263]
+WARNING: [Synth 8-8895] 'reset_combined' is already implicitly declared on line 239 [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:264]
+WARNING: [Synth 8-6901] identifier 'isBL' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:40]
+WARNING: [Synth 8-6901] identifier 'WA3_M' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:41]
+WARNING: [Synth 8-6901] identifier 'WA3_W' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:42]
+WARNING: [Synth 8-6901] identifier 'PCSrcD' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:43]
+WARNING: [Synth 8-6901] identifier 'PCSrcE' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:44]
+WARNING: [Synth 8-6901] identifier 'PCSrcM_r' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:45]
+WARNING: [Synth 8-6901] identifier 'RegWriteM_r' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:46]
+WARNING: [Synth 8-6901] identifier 'MemtoRegE' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:47]
+WARNING: [Synth 8-6901] identifier 'flushd_2' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:130]
+INFO: [Synth 8-6157] synthesizing module 'controller' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_rsten' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_rsten.v:1]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_rsten' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_rsten.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset__parameterized0' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset__parameterized0' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset__parameterized1' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset__parameterized1' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset__parameterized2' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset__parameterized2' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'controller' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2719.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2719.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2719.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2719.023 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2719.023 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 2719.023 ; gain = 0.000
+17 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 2719.023 ; gain = 0.000
+close_design
+set_property top hazard_unit [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+synth_design -top hazard_unit -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top hazard_unit -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2719.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-11241] undeclared symbol 'clk', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:46]
+INFO: [Synth 8-11241] undeclared symbol 'reset_combined', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:46]
+INFO: [Synth 8-11241] undeclared symbol 'reset', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:47]
+INFO: [Synth 8-6157] synthesizing module 'hazard_unit' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset' (1#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+WARNING: [Synth 8-3848] Net clk in module/entity hazard_unit does not have driver. [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:46]
+WARNING: [Synth 8-3848] Net reset in module/entity hazard_unit does not have driver. [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:47]
+WARNING: [Synth 8-3848] Net reset_combined in module/entity hazard_unit does not have driver. [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'hazard_unit' (2#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2719.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Apr 20 21:13:49 2025
+| Host         : DESKTOP-M3R0RID running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++----------+----------+--------------+----------+
+| Rule ID  | Severity | # Violations | # Waived |
++----------+----------+--------------+----------+
+| ASSIGN-5 | WARNING  | 3            | 0        |
++----------+----------+--------------+----------+
+
+
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'clk' declared and are not set.
+RTL Name 'clk', Hierarchy 'hazard_unit', File 'C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v', Line 46.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'reset' declared and are not set.
+RTL Name 'reset', Hierarchy 'hazard_unit', File 'C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v', Line 47.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'reset_combined' declared and are not set.
+RTL Name 'reset_combined', Hierarchy 'hazard_unit', File 'C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v', Line 46.
+INFO: [Synth 37-85] Total of 3 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2719.023 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Synthesis
+12 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2719.023 ; gain = 0.000
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: hazard_unit
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2719.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'clk', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:46]
+INFO: [Synth 8-11241] undeclared symbol 'reset_combined', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:46]
+INFO: [Synth 8-11241] undeclared symbol 'reset', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:47]
+INFO: [Synth 8-6157] synthesizing module 'hazard_unit' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'hazard_unit' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:1]
+WARNING: [Synth 8-3848] Net clk in module/entity hazard_unit does not have driver. [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:46]
+WARNING: [Synth 8-3848] Net reset in module/entity hazard_unit does not have driver. [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:47]
+WARNING: [Synth 8-3848] Net reset_combined in module/entity hazard_unit does not have driver. [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:46]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2719.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2719.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2719.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2719.023 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2719.023 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2724.082 ; gain = 5.059
+10 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2724.082 ; gain = 5.059
+close_design
+import_files -norecurse {C:/EE446/Experiment_2/Experiment_2.srcs/sources_1/imports/HDL/SingleCycleComputer.v C:/EE446/Experiment_2/Experiment_2.srcs/sources_1/imports/HDL/SSD.v C:/EE446/Experiment_2/Experiment_2.srcs/sources_1/imports/HDL/MSSD.v C:/EE446/Experiment_2/Experiment_2.srcs/sources_1/imports/HDL/debouncer.v}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+add_files -fileset constrs_1 -norecurse {{C:/EE446/Experiment_2/Experiment_2.srcs/constrs_1/imports/Everday Codes/Nexys-A7-100T-Master.xdc}}
+import_files -fileset constrs_1 {{C:/EE446/Experiment_2/Experiment_2.srcs/constrs_1/imports/Everday Codes/Nexys-A7-100T-Master.xdc}}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+import_files -norecurse C:/EE446/Test_exp4/Instructions.hex
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+set_property file_type {Memory File} [get_files  C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/Test_exp4/Instructions.hex]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+export_ip_user_files -of_objects  [get_files C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/SingleCycleComputer.v] -no_script -reset -force -quiet
+remove_files  C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/SingleCycleComputer.v
+file delete -force C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/SingleCycleComputer.v
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+import_files -norecurse C:/EE446/Experiment_2/Experiment_2.srcs/sources_1/imports/Downloads/Project_top_module.v
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+set_property top Nexys_A7 [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/EE446/EXP_4/EXP_4.runs/synth_1/top.dcp to C:/EE446/EXP_4/EXP_4.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\Downloads\Project_top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\datapath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\SingleCycleComputer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\EE446\EXP_4\EXP_4.srcs\sources_1\imports\HDL\hazard_unit.v:]
+launch_runs synth_1 -jobs 4
+[Sun Apr 20 21:42:01 2025] Launched synth_1...
+Run output will be captured here: C:/EE446/EXP_4/EXP_4.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sun Apr 20 21:43:15 2025] Launched impl_1...
+Run output will be captured here: C:/EE446/EXP_4/EXP_4.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Apr 20 21:44:45 2025] Launched impl_1...
+Run output will be captured here: C:/EE446/EXP_4/EXP_4.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2024.1.0
+  **** Build date : Mar  6 2024 at 20:50:54
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2024.1.0
+  ****** Build date   : Mar 09 2024-03:00:37
+    **** Build number : 2024.1.1709942437
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 3591.410 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292BB34BCA
+set_property PROGRAM.FILE {C:/EE446/EXP_4/EXP_4.runs/impl_1/Nexys_A7.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/EE446/EXP_4/EXP_4.runs/impl_1/Nexys_A7.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 20 22:16:58 2025...

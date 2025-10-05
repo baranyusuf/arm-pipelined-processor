@@ -1,0 +1,442 @@
+
+*** Running vivado
+    with args -log Nexys_A7.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Nexys_A7.tcl
+
+
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Sun Apr 20 21:42:03 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source Nexys_A7.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 492.516 ; gain = 198.152
+Command: read_checkpoint -auto_incremental -incremental C:/EE446/EXP_4/EXP_4.srcs/utils_1/imports/synth_1/top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/EE446/EXP_4/EXP_4.srcs/utils_1/imports/synth_1/top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Nexys_A7 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Device 21-9227] Part: xc7a100tcsg324-1 does not have CEAM library.
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 21280
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1366.770 ; gain = 448.117
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'isCMP_E', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:230]
+INFO: [Synth 8-11241] undeclared symbol 'reset_combined', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:239]
+WARNING: [Synth 8-8895] 'isCMP_E' is already implicitly declared on line 230 [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:263]
+WARNING: [Synth 8-8895] 'reset_combined' is already implicitly declared on line 239 [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:264]
+WARNING: [Synth 8-6901] identifier 'isBL' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:40]
+WARNING: [Synth 8-6901] identifier 'WA3_M' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:41]
+WARNING: [Synth 8-6901] identifier 'WA3_W' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:42]
+WARNING: [Synth 8-6901] identifier 'PCSrcD' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:43]
+WARNING: [Synth 8-6901] identifier 'PCSrcE' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:44]
+WARNING: [Synth 8-6901] identifier 'PCSrcM_r' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:45]
+WARNING: [Synth 8-6901] identifier 'RegWriteM_r' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:46]
+WARNING: [Synth 8-6901] identifier 'MemtoRegE' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:47]
+WARNING: [Synth 8-6901] identifier 'flushd_2' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:130]
+INFO: [Synth 8-11241] undeclared symbol 'FwdA_3', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:246]
+INFO: [Synth 8-11241] undeclared symbol 'FwdB_3', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:253]
+WARNING: [Synth 8-8895] 'FwdA_3' is already implicitly declared on line 246 [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:264]
+WARNING: [Synth 8-8895] 'FwdB_3' is already implicitly declared on line 253 [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:281]
+INFO: [Synth 8-11241] undeclared symbol 'SH_in', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:298]
+WARNING: [Synth 8-8895] 'SH_in' is already implicitly declared on line 298 [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:302]
+WARNING: [Synth 8-6901] identifier 'ID_EX_Rd' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:46]
+WARNING: [Synth 8-6901] identifier 'WA3M' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:47]
+WARNING: [Synth 8-6901] identifier 'WA3W' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:48]
+WARNING: [Synth 8-6901] identifier 'RA1' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:129]
+WARNING: [Synth 8-6901] identifier 'RA2' is used before its declaration [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:130]
+INFO: [Synth 8-11241] undeclared symbol 'clk', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:46]
+INFO: [Synth 8-11241] undeclared symbol 'reset_combined', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:46]
+INFO: [Synth 8-11241] undeclared symbol 'reset', assumed default net type 'wire' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:47]
+INFO: [Synth 8-6157] synthesizing module 'Nexys_A7' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/Downloads/Project_top_module.v:3]
+INFO: [Synth 8-6157] synthesizing module 'MSSD' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/MSSD.v:3]
+INFO: [Synth 8-6157] synthesizing module 'SSD' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/SSD.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'SSD' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/SSD.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'MSSD' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/MSSD.v:3]
+INFO: [Synth 8-6157] synthesizing module 'debouncer' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/debouncer.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'debouncer' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/debouncer.v:3]
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'controller' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_rsten' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_rsten.v:1]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_rsten' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_rsten.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset__parameterized0' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset__parameterized0' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset__parameterized1' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset__parameterized1' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset__parameterized2' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset__parameterized2' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'controller' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/controller.v:1]
+INFO: [Synth 8-6157] synthesizing module 'hazard_unit' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'hazard_unit' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'datapath' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Adder.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Adder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux_2to1' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_2to1.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux_2to1' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_2to1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_rsten__parameterized0' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_rsten.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_rsten__parameterized0' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_rsten.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Instruction_memory' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Instruction_memory.v:1]
+	Parameter BYTE_SIZE bound to: 4 - type: integer 
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'Instructions.hex' is read successfully [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Instruction_memory.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Instruction_memory' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Instruction_memory.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux_2to1__parameterized0' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_2to1.v:1]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux_2to1__parameterized0' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_2to1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_file' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_file.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Register_rsten_neg' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_rsten_neg.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_rsten_neg' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_rsten_neg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Decoder_4to16' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Decoder_4to16.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Decoder_4to16' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Decoder_4to16.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux_16to1' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_16to1.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_16to1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_16to1' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_16to1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Register_file' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_file.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Extender' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Extender.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Extender' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Extender.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_reset__parameterized3' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_reset__parameterized3' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_reset.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux_4to1' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_4to1.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_4to1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_4to1' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Mux_4to1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shifter' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/shifter.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'shifter' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/shifter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/ALU.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/ALU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Memory' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Memory.v:1]
+	Parameter BYTE_SIZE bound to: 4 - type: integer 
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Memory' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Memory.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_simple' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_simple.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_simple' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_simple.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_simple__parameterized0' [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_simple.v:1]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_simple__parameterized0' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/Register_simple.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'datapath' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/datapath.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/top.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Nexys_A7' (0#1) [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/Downloads/Project_top_module.v:3]
+WARNING: [Synth 8-3848] Net clk in module/entity hazard_unit does not have driver. [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:46]
+WARNING: [Synth 8-3848] Net reset in module/entity hazard_unit does not have driver. [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:47]
+WARNING: [Synth 8-3848] Net reset_combined in module/entity hazard_unit does not have driver. [C:/EE446/EXP_4/EXP_4.srcs/sources_1/imports/HDL/hazard_unit.v:46]
+WARNING: [Synth 8-4767] Trying to implement RAM 'mem_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "mem_reg" dissolved into registers
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1540.480 ; gain = 621.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1540.480 ; gain = 621.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1540.480 ; gain = 621.828
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.092 . Memory (MB): peak = 1540.480 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/EE446/EXP_4/EXP_4.srcs/constrs_1/imports/Everday Codes/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [C:/EE446/EXP_4/EXP_4.srcs/constrs_1/imports/Everday Codes/Nexys-A7-100T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/EE446/EXP_4/EXP_4.srcs/constrs_1/imports/Everday Codes/Nexys-A7-100T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Nexys_A7_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Nexys_A7_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1640.590 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1640.590 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1640.590 ; gain = 721.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1640.590 ; gain = 721.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1640.590 ; gain = 721.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint C:/EE446/EXP_4/EXP_4.srcs/utils_1/imports/synth_1/top.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1640.590 ; gain = 721.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1640.590 ; gain = 721.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1640.590 ; gain = 721.938
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'my_computer/ctrl/REG_WA3_E' (Register_reset__parameterized0) to 'my_computer/ctrl/REG_WD3_E'
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   33 Bit       Adders := 6     
+	   2 Input   32 Bit       Adders := 4     
+	   2 Input    8 Bit       Adders := 3     
+	   2 Input    3 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 25    
+	                8 Bit    Registers := 256   
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 8     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 28    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 7     
+	   4 Input   32 Bit        Muxes := 4     
+	 257 Input    8 Bit        Muxes := 4     
+	   4 Input    8 Bit        Muxes := 128   
+	   2 Input    8 Bit        Muxes := 252   
+	   4 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 2     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 5     
+	   5 Input    2 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 6     
+	   2 Input    1 Bit        Muxes := 262   
+	   4 Input    1 Bit        Muxes := 72    
+	   5 Input    1 Bit        Muxes := 180   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port ADDR[31] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[30] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[29] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[28] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[27] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[26] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[25] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[24] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[23] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[22] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[21] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[20] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[19] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[18] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[17] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[16] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[15] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[14] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[13] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[12] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[11] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[10] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[9] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[8] in module Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[31] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[30] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[29] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[28] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[27] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[26] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[25] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[24] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[23] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[22] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[21] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[20] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[19] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[18] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[17] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[16] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[15] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[14] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[13] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[12] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[11] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[10] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[9] in module Instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[8] in module Instruction_memory is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1640.590 ; gain = 721.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1640.590 ; gain = 721.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1640.590 ; gain = 721.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 1688.418 ; gain = 769.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1702.809 ; gain = 784.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1702.809 ; gain = 784.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1702.809 ; gain = 784.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1702.809 ; gain = 784.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1702.809 ; gain = 784.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1702.809 ; gain = 784.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    96|
+|3     |LUT1   |    63|
+|4     |LUT2   |   285|
+|5     |LUT3   |  1230|
+|6     |LUT4   |   185|
+|7     |LUT5   |   506|
+|8     |LUT6   |  3690|
+|9     |MUXF7  |  1300|
+|10    |MUXF8  |   632|
+|11    |FDRE   |  3018|
+|12    |IBUF   |    19|
+|13    |OBUF   |    32|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1702.809 ; gain = 784.156
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 49 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:41 . Memory (MB): peak = 1702.809 ; gain = 684.047
+Synthesis Optimization Complete : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1702.809 ; gain = 784.156
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.080 . Memory (MB): peak = 1702.809 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2028 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1702.809 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 5c1fabe
+INFO: [Common 17-83] Releasing license: Synthesis
+91 Infos, 72 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 1702.809 ; gain = 1201.668
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1702.809 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/EE446/EXP_4/EXP_4.runs/synth_1/Nexys_A7.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file Nexys_A7_utilization_synth.rpt -pb Nexys_A7_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 20 21:43:02 2025...

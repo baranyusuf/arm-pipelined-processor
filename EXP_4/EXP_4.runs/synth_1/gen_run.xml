@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1745174521" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/top.dcp">
+  <File Type="PA-TCL" Name="Nexys_A7.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Nexys_A7_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Nexys_A7_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Nexys_A7.vds"/>
+  <File Type="RDS-UTIL" Name="Nexys_A7_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Nexys_A7_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Nexys_A7.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Nexys_A7_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Nexys_A7_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/ALU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/ALU.v"/>
+        <Attr Name="ImportTime" Val="1744886727"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/Adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/Adder.v"/>
+        <Attr Name="ImportTime" Val="1744886727"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/Decoder_4to16.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/Decoder_4to16.v"/>
+        <Attr Name="ImportTime" Val="1744886728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/Extender.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/Extender.v"/>
+        <Attr Name="ImportTime" Val="1744886728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/Instruction_memory.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/Instruction_memory.v"/>
+        <Attr Name="ImportTime" Val="1744886728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/MSSD.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Experiment_2/Experiment_2.srcs/sources_1/imports/HDL/MSSD.v"/>
+        <Attr Name="ImportTime" Val="1742157335"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/Memory.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/Memory.v"/>
+        <Attr Name="ImportTime" Val="1744886728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/Mux_16to1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/Mux_16to1.v"/>
+        <Attr Name="ImportTime" Val="1744886728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/Mux_2to1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/Mux_2to1.v"/>
+        <Attr Name="ImportTime" Val="1744886728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/Mux_4to1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/Mux_4to1.v"/>
+        <Attr Name="ImportTime" Val="1744886728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/Register_file.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/Register_file.v"/>
+        <Attr Name="ImportTime" Val="1744886728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/Register_reset.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/Register_reset.v"/>
+        <Attr Name="ImportTime" Val="1744886728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/Register_rsten.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/Register_rsten.v"/>
+        <Attr Name="ImportTime" Val="1744886728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/Register_rsten_neg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/Register_rsten_neg.v"/>
+        <Attr Name="ImportTime" Val="1744886728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/Register_simple.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/Register_simple.v"/>
+        <Attr Name="ImportTime" Val="1744886728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/SSD.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Experiment_2/Experiment_2.srcs/sources_1/imports/HDL/SSD.v"/>
+        <Attr Name="ImportTime" Val="1742157335"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/controller.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/controller.v"/>
+        <Attr Name="ImportTime" Val="1745154823"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/datapath.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/datapath.v"/>
+        <Attr Name="ImportTime" Val="1745150831"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/debouncer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Experiment_2/Experiment_2.srcs/sources_1/imports/HDL/debouncer.v"/>
+        <Attr Name="ImportTime" Val="1742157334"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/hazard_unit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/hazard_unit.v"/>
+        <Attr Name="ImportTime" Val="1745153341"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/shifter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/shifter.v"/>
+        <Attr Name="ImportTime" Val="1744886728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/top.v"/>
+        <Attr Name="ImportTime" Val="1745153652"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/Project_top_module.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Experiment_2/Experiment_2.srcs/sources_1/imports/Downloads/Project_top_module.v"/>
+        <Attr Name="ImportTime" Val="1742654506"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/Decoder_2to4.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/Decoder_2to4.v"/>
+        <Attr Name="ImportTime" Val="1744886728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/Register_en.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/HDL/Register_en.v"/>
+        <Attr Name="ImportTime" Val="1744886728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Test_exp4/Instructions.hex">
+      <FileInfo SFType="MEM">
+        <Attr Name="ImportPath" Val="$PPRDIR/../Test_exp4/Instructions.hex"/>
+        <Attr Name="ImportTime" Val="1745072686"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Nexys_A7"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Everday Codes/Nexys-A7-100T-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Experiment_2/Experiment_2.srcs/constrs_1/imports/Everday Codes/Nexys-A7-100T-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1742655042"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/top.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
